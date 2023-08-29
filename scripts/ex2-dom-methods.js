@@ -12,7 +12,6 @@ function changeBodyBackground() {
     // TODO Finish the function
 }
 
-
 /**
  * On the html doc, please change the h1 tag's font size to 100px.
  * * Note: There are many ways to do this.
@@ -20,7 +19,6 @@ function changeBodyBackground() {
 function changeH1FontSize() {
     // TODO Finish the function
 }
-
 
 /**
  * On the html doc, there are several elements with a class of "problems".
@@ -30,7 +28,6 @@ function changeH1FontSize() {
 function addBorderToProblems() {
     // TODO Finish the function
 }
-
 
 /**
  * The html doc has a <p> element with an id of "style-me". Change the padding

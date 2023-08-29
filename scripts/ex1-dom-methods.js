@@ -3,8 +3,8 @@
 // ! All methods must be called to take effect on the HTML Page
 
 /**
- * Inside module15.html there is an element with id="add-to-me". Change its value
- * so that it has whatever value the use enters into changeAddToMe.
+ * Inside module15.html there is an element with id="add-to-me". Change its 
+ * value so that it has whatever value the user enters into changeAddToMe.
  * 
  * @param {String} value The Value to change the element to
  */
@@ -13,23 +13,24 @@ function changeAddToMe(value) {
 }
 
 /**
- * In module15.html, there is an element with id="remove-me". Set the value of that
- * element to an empty string to clear the text.
+ * In module15.html, there is an element with id="remove-me". Set the value of 
+ * that element to an empty string to clear the text.
  */
 function clearRemoveMe() {
     // TODO Finish the function
 }
+// clearRemoveMe();
 
 /**
  * Using the same element you just cleared the value from in the last exercises,
  * remove the element entirely.
  * 
- * Note: You are not removing the text, you are removing the element all together
+ * Note: You are not removing the text, you are removing the element all 
+ * together
  */
 function removeTag() {
     // TODO Finish the function
 }
-
 
 /**
  * Using the <p> element with the id of "change-me", please replace the <p>
@@ -40,19 +41,18 @@ function replaceMe() {
     // TODO Finish the function
 }
 
-
 /**
- * Change the value of the <p> element with the id of "intro". Replace this with the
- * text of your choice.
+ * Change the value of the <p> element with the id of "intro". Replace this 
+ * with the text of your choice.
  */
 function changeHeader() {
     // TODO Finish the function
 }
 
-
 /**
- * In the html doc, there is an iFrame with an id of "frame". Please set its src 
- * attribute to an empty string. The JavaScript Cheatsheet should no longer render.
+ * In the html doc, there is an iFrame with an id of "frame". Please set its 
+ * src attribute to an empty string. The JavaScript Cheatsheet should no longer 
+ * render.
  */
 function removeFrameSource() {
     // TODO Finish the function
@@ -70,8 +70,8 @@ function returnAllPElements() {
 
 /**
  * In the html doc, there are several divs that have a class of "page". Please
- * return all of those elements. You can do this using the getElementsByClassName()
- * method.
+ * return all of those elements. You can do this using the 
+ * getElementsByClassName() method.
  */
 function returnAllPages() {
     // TODO Finish the function
@@ -85,6 +85,3 @@ function returnAllPages() {
 function addButtonToProblems() {
     // TODO Finish the function
 }
-
-
-
