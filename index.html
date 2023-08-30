@@ -6,10 +6,13 @@
         <title>Module 15</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/module15.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="icon" href="images/logo_ywca_32by32.png">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     </head>
     <body id="body">
-        <div class="page" id="header-index">
+        <header id="header-index" class="container header">
             <h1 id="h1">Module 15: The HTML DOM</h1>
             <p id="intro">
                 The HTML DOM is the interface we use with JavaScript that gives us properties and methods to interact with 
@@ -18,18 +21,18 @@
                 arcane, but when you operate on HTML elements, you will get visual proof of your work in JavaScript. This makes
                 Front-End Development feel much more tangible than Back-End Development. Let's get started!
             </p>
-        </div>
+        </header>
         <div class="container" id="problems">
             <p id="add-to-me"></p>
             <p id="change-me">Change Me!</p>
             <p id="remove-me">Remove Me!</p>
             <p id="style-me">Style Me!</p>
         </div>
-        <div id="btn-div">
-            <button onclick="myAnimation()">Start Animation</button>
-        </div>
         <div id="container">
             <div id="animate">Animation Placeholder</div>
+        </div>        
+        <div id="btn-div">
+            <button onclick="myAnimation()">Start Animation</button>
         </div>
         <script src="scripts/animation.js"></script>
         <script src="scripts/ex2-dom-methods.js" async defer></script>

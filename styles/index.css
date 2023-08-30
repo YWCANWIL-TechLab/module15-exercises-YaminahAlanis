@@ -4,30 +4,44 @@
     margin: 0;
 }
 
-.page {
-    font-size: 24px;
-    background-color: white;
-    margin: 10%;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-#header {
-    font-size: 2rem;
+body,
+html {
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
-#cheetsheet {
-    align-items: center;
-    margin: 5% 30%;
+.container {
+    padding-inline: 1.5em;
+    padding-block: 4em;
+}
+
+.header {
+    font-size: 1.5rem;
+    /* padding-block: 5em; */
+}
+
+.header h1 {
+    font-family: "Space Mono", "Courier New", monospace;
+    padding-block: 1.5em;
+    text-align: center;
 }
 
 #container {
     margin: 10% auto;
-    width: 80%;
+    width: 1300px;
     height: 500px;
     position: relative;
     background: maroon;
 }
+
+
 
 #animate {
     width: 10%;
@@ -37,7 +51,8 @@
 }
 
 #btn-div {
-    margin: 0 auto;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-block: 3rem;
 }
 
