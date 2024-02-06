@@ -9,17 +9,21 @@
  * @param {String} value The Value to change the element to
  */
 function changeAddToMe(value) {
+    document.getElementById('add-to-me').innerText=value;
+
     // TODO Finish the function
 }
+changeAddToMe("hello");
 
 /**
  * In module15.html, there is an element with id="remove-me". Set the value of 
  * that element to an empty string to clear the text.
  */
 function clearRemoveMe() {
+    document.getElementById("remove-me").innerText="";
     // TODO Finish the function
 }
-// clearRemoveMe();
+clearRemoveMe();
 
 /**
  * Using the same element you just cleared the value from in the last exercises,
@@ -29,8 +33,12 @@ function clearRemoveMe() {
  * together
  */
 function removeTag() {
+    const parent=document.getElementById('problems');
+    const removeMe=document.getElementById('remove-me');
+    parent.removeChild(removeMe);
     // TODO Finish the function
 }
+removeTag();
 
 /**
  * Using the <p> element with the id of "change-me", please replace the <p>
@@ -38,24 +46,32 @@ function removeTag() {
  * "I am a new element".
  */
 function replaceMe() {
+    const ohNo=document.getElementById("problems");
+    const changes=document.getElementById("change-me");
+    const newP=document.createElement("p");
+    newP.innerText="I am a new element";
+    ohNo.replaceChild(newP,changes);
     // TODO Finish the function
 }
+replaceMe();
 
 /**
  * Change the value of the <p> element with the id of "intro". Replace this 
  * with the text of your choice.
  */
 function changeHeader() {
+        document.getElementById("intro").innerText="I am changing from lorem";
+        
     // TODO Finish the function
 }
-
+changeHeader();
 /**
  * In the html doc, there is an iFrame with an id of "frame". Please set its 
  * src attribute to an empty string. The JavaScript Cheatsheet should no longer 
  * render.
  */
 function removeFrameSource() {
-    // TODO Finish the function
+    // TODO Finish the function //skip
 }
 
 /**
@@ -64,8 +80,11 @@ function removeFrameSource() {
  * the output of this method
  */
 function returnAllPElements() {
+    return document.getElementsByTagName("p");
+    
     // TODO Finish the function
 }
+returnAllPElements();
 
 
 /**
@@ -74,7 +93,7 @@ function returnAllPElements() {
  * getElementsByClassName() method.
  */
 function returnAllPages() {
-    // TODO Finish the function
+    // TODO Finish the function//skip
 }
 
 /**
@@ -83,5 +102,12 @@ function returnAllPages() {
  * Be sure to use it on the correct element.
  */
 function addButtonToProblems() {
+    let button=document.createElement("button");
+    button.innerText="jobs";
+    const misery=document.getElementById("problems");
+    misery.appendChild(button);
     // TODO Finish the function
 }
+addButtonToProblems();
+
+//Finished exercise 1

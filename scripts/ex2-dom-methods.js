@@ -10,6 +10,7 @@
  */
 function changeBodyBackground() {
     // TODO Finish the function
+    
 }
 
 /**
@@ -92,3 +93,5 @@ function handleMouseOver() {
 function changeBackgroundColor() {
     // TODO Finish the function
 }
+
+// skipped this exercise, not required. Finished with module 15.

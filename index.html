@@ -10,6 +10,25 @@
         <link rel="icon" href="images/logo_ywca_32by32.png">
         <link href="https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+        <style>
+
+            .relative{
+                position:relative;
+                border:3px solid black;
+                height:600px;
+                bottom:1px;
+                z-index:5;
+            }
+
+            .absolute{
+                position:absolute;
+                width:50px;
+                height:50px;
+                background-color:blueviolet;
+                left:0px;
+            }
+
+        </style>
     </head>
     <body id="body">
         <header id="header-index" class="container header">
@@ -34,7 +53,23 @@
         <div id="btn-div">
             <button onclick="myAnimation()">Start Animation</button>
         </div>
+        <section class="relative">
+            <div class="absolute"></div>
+        </section>
+        <h2 id="display">Test</h2>
+        <input type="email" id="email-input" placeholder="Enter your email">
+        <h3 id="random">This will be a random color</h3>
+        <section class="container" id="quiz">
+            <form>
+                <h2>Quiz</h2>
+                <div class="question">
+                    <label for="exponent"></label>
+                </div>
+            </form>
+        </section>
         <script src="scripts/animation.js"></script>
         <script src="scripts/ex2-dom-methods.js" async defer></script>
+        <!-- <script src="example.js"></script> -->
+        <!-- <script src="scripts/ex1-dom-methods.js"></script> -->
     </body>
 </html>
